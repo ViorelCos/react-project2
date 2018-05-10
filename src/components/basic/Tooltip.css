@@ -1,0 +1,13 @@
+.skc-tooltip {
+  opacity: 1;
+}
+.skc-tooltip .rc-tooltip-inner {
+  background-color: lightblue;
+  color: black;
+}
+
+/* TODO: simplify color overrides by using nested styles and variables*/
+/*this style needs to be overriden for each placement separately*/
+.skc-tooltip.rc-tooltip-placement-rightTop .rc-tooltip-arrow {
+  border-right-color: lightblue;
+}
